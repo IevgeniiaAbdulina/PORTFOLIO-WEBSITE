@@ -16,6 +16,11 @@
   --header-font-color: #b0bcb8;
   --header-item-hover-color: #f8876f;
 
+  --nav-project-a-hover-color: green;
+  --nav-project-b-hover-color: violet;
+  --nav-project-c-hover-color: palevioletred;
+  --nav-project-d-hover-color: yellow;
+
   --main-bg-color: #fff;
 }
 
@@ -23,6 +28,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .splash-screen {
@@ -41,17 +59,18 @@ span.splash-title {
   font-family: var(--splash-font-family);
   font-weight: var(--splash-font-weight);
   font-size: var(--splash-font-size);
-  text-transform: uppercase;
   letter-spacing: var(--splash-letter-spacing);
   line-height: var(--splash-line-height);
   color: var(--splash-font-color);
+  text-transform: uppercase;
 }
 
 span.splash-subtitle {
-  font-family: "Kanit", sans-serif;
+  font-family: var(--splash-font-family);
   font-weight: 400;
   font-size: 1.25rem;
   text-transform: uppercase;
+  color: var(--splash-font-color);
 }
 
 li,
@@ -68,12 +87,12 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 10%;
-  border: solid red;
+  padding: 20px 20px;
 }
 
 .header-brand {
   cursor: pointer;
+  text-transform: uppercase;
   margin-right: auto;
   font-family: var(--header-font-family);
   font-weight: var(--header-font-weight);
@@ -81,19 +100,49 @@ a {
   color: var(--header-font-color);
 }
 
-.menu-items {
+.menu-items,
+.nav {
   list-style: none;
 }
 
-.menu-items li {
+.menu-items li,
+.nav li {
   display: inline-block;
   padding: 0 20px;
 }
 
-.menu-items li a {
+.menu-items li a,
+.nav li a {
   transition: all 0.3s ease 0s;
 }
 
 .menu-items li a:hover {
   color: var(--header-item-hover-color);
+}
+
+.project {
+  border: solid goldenrod;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+#green-space:hover {
+  color: var(--nav-project-a-hover-color);
+}
+
+#todo:hover {
+  color: var(--nav-project-b-hover-color);
+}
+
+#frontend:hover {
+  color: var(--nav-project-c-hover-color);
+}
+
+#illustrations:hover {
+  color: var(--nav-project-d-hover-color);
 }
