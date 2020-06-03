@@ -1,0 +1,35 @@
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+#green-space:hover {
+  color: var(--nav-project-a-hover-color);
+}
+
+#todo:hover {
+  color: var(--nav-project-b-hover-color);
+}
+
+#frontend:hover {
+  color: var(--nav-project-c-hover-color);
+}
+
+#illustrations:hover {
+  color: var(--nav-project-d-hover-color);
+}

@@ -1,0 +1,26 @@
+:root {
+  --splash-font-family: "Kanit", sans-serif;
+  --splash-font-size: 6rem;
+  --splash-font-weight: 900;
+  --splash-letter-spacing: 0.25em;
+  --splash-line-height: 1.2;
+  --splash-font-color: #fff;
+  --splash-bg-color: #b3ddd1;
+
+  --header-font-family: "Poppins", sans-serif;
+  --header-font-weight: 700;
+  --header-font-size: 0.875em;
+  --header-letter-spacing: 0.12em;
+  --header-font-color: #ba9077;
+  --header-item-hover-color: #b56969;
+
+  --nav-project-a-hover-color: green;
+  --nav-project-b-hover-color: violet;
+  --nav-project-c-hover-color: palevioletred;
+  --nav-project-d-hover-color: yellow;
+
+  --txt-color: #1d2120;
+  --main-bg-color: #fff;
+
+  --right-bg-color: #dbe9d8;
+}
