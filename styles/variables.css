@@ -23,13 +23,17 @@
   --project-title-font-weight: 700;
   --project-title-font-size: 4vw;
   --project-title-line-height: 1;
-
   --project-title-font-color: #465a51;
 
   --project-description-font-family: "Poppins", sans-serif;
   --project-description-font-weight: 400;
   --project-description-font-size: 0.875em;
   --project-description-font-color: #7e958f;
+
+  --resume-title-font-family: "Abhaya Libre", serif;
+  --resume-title-font-weight: 700;
+  --resume-title-font-size: 4vw;
+  --resume-title-txt-color: #1d2120;
 
   --txt-color: #1d2120;
   --main-bg-color: #fff;

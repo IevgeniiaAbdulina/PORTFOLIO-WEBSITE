@@ -1,0 +1,38 @@
+.resume-container {
+  display: block;
+  top: 62px;
+  margin: 3vw;
+  padding: 20px;
+}
+
+.resume-title {
+  font-family: var(--resume-title-font-family);
+  font-size: var(--resume-title-font-size);
+  font-weight: var(--resume-title-font-weight);
+}
+
+.resume-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-section {
+  flex: 3;
+  padding: 20px 20px;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divider-vertical {
+  width: 2px;
+  height: 40px;
+  background-color: lightcoral;
+}
