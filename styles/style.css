@@ -1,7 +1,10 @@
 @import "./fonts.css";
 @import "./variables.css";
-@import "./body.css";
+
 @import "./splashscreen.css";
-@import "./header.css";
-@import "./nav-projects.css";
-@import "./projects.css";
+
+@import "./home/body.css";
+@import "./home/header.css";
+@import "./home/nav-projects.css";
+
+@import "./projects/plants/project.css";

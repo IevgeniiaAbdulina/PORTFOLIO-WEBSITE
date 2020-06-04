@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.project {
+  display: flex;
+  margin: 0 8.3vw;
+  padding: 0 20px;
+}
+
+.left-content {
+  flex: 4;
+  position: relative;
+  height: 72vh;
+}
+
+.right-content {
+  flex: 3;
+  position: relative;
+  height: 72vh;
+  background-color: var(--right-bg-color);
+}
+
+.project-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  top: 45%;
+  margin: 20px;
+  position: absolute;
+  transform: translate(-55%, -50%);
+  background: #7e958f url(../public/images/ic-head-32.png) no-repeat center /
+    contain padding-box border-box;
+}
+
+.project-title {
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  margin: 20px 0;
+  font-family: var(--project-title-font-family);
+  font-weight: var(--project-title-font-weight);
+  font-size: var(--project-title-font-size);
+  color: var(--project-title-font-color);
+}
+
+.project-description {
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 60%;
+  margin: 20px 0;
+  font-family: var(--project-description-font-family);
+  font-weight: var(--project-description-font-weight);
+  font-size: var(--project-description-font-size);
+  color: var(--project-description-font-color);
+}
+
+.title-2 {
+  padding-left: 40px;
+}

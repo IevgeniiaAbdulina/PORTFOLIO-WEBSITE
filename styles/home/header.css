@@ -13,13 +13,14 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 20px;
+  padding: 2.4vw 8.3vw;
 }
 
 .header-brand {
   cursor: pointer;
   text-transform: uppercase;
   margin-right: auto;
+  padding: 0 20px;
   font-family: var(--header-font-family);
   font-weight: var(--header-font-weight);
   font-size: var(--header-font-size);
@@ -40,6 +41,7 @@ a {
   transition: all 0.3s ease 0s;
 }
 
+.active-menu,
 .menu-items li a:hover {
   color: var(--header-item-hover-color);
 }

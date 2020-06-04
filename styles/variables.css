@@ -1,5 +1,5 @@
 :root {
-  --splash-font-family: "Kanit", sans-serif;
+  --splash-font-family: "Poppins", sans-serif;
   --splash-font-size: 6rem;
   --splash-font-weight: 900;
   --splash-letter-spacing: 0.25em;
@@ -14,10 +14,20 @@
   --header-font-color: #ba9077;
   --header-item-hover-color: #b56969;
 
-  --nav-project-a-hover-color: green;
+  --nav-project-a-hover-color: #7e958f;
   --nav-project-b-hover-color: violet;
   --nav-project-c-hover-color: palevioletred;
   --nav-project-d-hover-color: yellow;
+
+  --project-title-font-family: "Abhaya Libre", serif;
+  --project-title-font-weight: 700;
+  --project-title-font-size: 3vw;
+  --project-title-font-color: #465a51;
+
+  --project-description-font-family: "Poppins", sans-serif;
+  --project-description-font-weight: 400;
+  --project-description-font-size: 0.875em;
+  --project-description-font-color: #7e958f;
 
   --txt-color: #1d2120;
   --main-bg-color: #fff;
