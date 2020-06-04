@@ -21,7 +21,9 @@
 
   --project-title-font-family: "Abhaya Libre", serif;
   --project-title-font-weight: 700;
-  --project-title-font-size: 3vw;
+  --project-title-font-size: 4vw;
+  --project-title-line-height: 1;
+
   --project-title-font-color: #465a51;
 
   --project-description-font-family: "Poppins", sans-serif;

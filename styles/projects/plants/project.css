@@ -43,6 +43,7 @@
   font-family: var(--project-title-font-family);
   font-weight: var(--project-title-font-weight);
   font-size: var(--project-title-font-size);
+  line-height: var(--project-title-line-height);
   color: var(--project-title-font-color);
 }
 
@@ -59,5 +60,5 @@
 }
 
 .title-2 {
-  padding-left: 40px;
+  padding-left: 6vw;
 }
