@@ -33,7 +33,13 @@
   --resume-title-font-family: "Abhaya Libre", serif;
   --resume-title-font-weight: 700;
   --resume-title-font-size: 4vw;
-  --resume-title-txt-color: #1d2120;
+  --resume-title-font-color: #465a51;
+  --resume-divider-color: #b3ddd1;
+
+  --resume-section-font-family: "Poppins", sans-serif;
+  --resume-section-font-weight: 400;
+  --resume-section-font-size: 1rem;
+  --resume-section-font-color: #1d2120;
 
   --txt-color: #1d2120;
   --main-bg-color: #fff;
