@@ -1,8 +1,8 @@
 .resume-container {
   display: block;
   top: 62px;
-  margin: 3vw;
-  padding: 20px;
+  margin: 6vw 8.3vw;
+  padding: 0 20px;
 }
 
 .resume-title {
@@ -14,25 +14,31 @@
 .resume-content {
   display: flex;
   flex-wrap: wrap;
+  padding: 40px 0;
 }
 
 .resume-section {
-  flex: 3;
-  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  padding-right: 10vw;
 }
 
+/* !!!!!!!! */
 .section-content {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px 0;
 }
 
-.section-body {
+/* .section-body {
   display: flex;
   flex-wrap: wrap;
-}
+  flex-grow: 1;
+} */
 
 .divider-vertical {
   width: 2px;
-  height: 40px;
+  height: 60px;
   background-color: lightcoral;
 }

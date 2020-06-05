@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6vw 8.3vw;
+  padding: 0 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  padding-right: 10vw;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}

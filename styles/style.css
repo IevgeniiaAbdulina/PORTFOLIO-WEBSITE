@@ -5,8 +5,8 @@
 
 @import "./home/body.css";
 @import "./home/header.css";
-@import "./home/nav-projects.css";
+@import "./home/nav.css";
 
 @import "./projects/plants/project.css";
-
-@import "./resume/resume-style.css";
+@import "./resume/resume.css";
+@import "./contact/contact.css";
