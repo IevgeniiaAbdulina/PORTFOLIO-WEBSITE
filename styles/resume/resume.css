@@ -4,7 +4,7 @@
   padding: 0 20px;
 }
 
-.resume-title {
+.resume-title h1 {
   font-family: var(--resume-title-font-family);
   font-weight: var(--resume-title-font-weight);
   font-size: var(--resume-title-font-size);
