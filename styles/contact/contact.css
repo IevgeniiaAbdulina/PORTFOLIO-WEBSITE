@@ -8,7 +8,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  flex: 4;
+  flex: 2;
   padding-right: 10vw;
 }
 
@@ -94,5 +94,26 @@ textarea:hover {
 .social-links {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
   flex: 2;
+}
+
+.social-links img {
+  width: 2.5rem;
+  height: auto;
+  transition: 0.2s;
+  filter: invert(61%) sepia(7%) saturate(666%) hue-rotate(114deg)
+    brightness(92%) contrast(87%);
+  /* fill: #7e958f; */
+}
+
+.social-links img:hover {
+  filter: invert(31%) sepia(5%) saturate(1541%) hue-rotate(101deg)
+    brightness(95%) contrast(82%);
+  /* fill: #465a51; */
+}
+
+.social-links div[role] {
+  padding: 0.6vw 0;
 }
