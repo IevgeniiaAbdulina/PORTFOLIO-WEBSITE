@@ -8,24 +8,25 @@
   display: flex;
   margin: 0 8.3vw;
   padding: 0 20px;
+  height: 72vh;
 }
 
 .left-content {
   flex: 4;
   position: relative;
-  height: 72vh;
+  height: auto;
 }
 
 .right-content {
   flex: 3;
   position: relative;
-  height: 72vh;
+  height: auto;
   background-color: var(--right-bg-color);
 }
 
 .project-img {
-  width: 280px;
-  height: 280px;
+  width: 24vw;
+  height: 24vw;
   border-radius: 50%;
   top: 45%;
   margin: 20px;

@@ -1,8 +1,8 @@
 .contact-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 5vw 8.3vw;
-  padding: 0 20px;
+  margin: 0 8.3vw;
+  padding: 4vw 20px 0;
 }
 
 .contact-form {
@@ -22,7 +22,6 @@
 .form-container form {
   display: flex;
   flex-direction: column;
-  padding: 4vw 0;
 }
 
 input,
@@ -42,7 +41,6 @@ textarea {
   border: none;
   border-bottom: 2px solid #7e958f;
   transition: 0.2s;
-  margin-top: 20px;
   padding: 10px 20px 10px 40px;
   background-color: transparent;
   color: var(--resume-section-font-color);
@@ -56,22 +54,15 @@ textarea:hover {
 }
 
 .form-container textarea {
-  height: 150px;
+  height: 100px;
   resize: none;
-  /* overflow: hidden; */
 }
 
-.form-name::after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f066";
-  color: #000000;
-  font-style: normal;
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  top: 10px;
-  left: 0;
+.material-icons {
+  position: relative;
+  font-size: 24px;
+  top: 34px;
+  color: #7e958f;
 }
 
 .form-container form button {
