@@ -52,6 +52,7 @@
   display: inline-block;
   box-sizing: border-box;
   position: absolute;
+  width: 80%;
   top: 60%;
   margin: 20px 0;
   font-family: var(--project-description-font-family);
